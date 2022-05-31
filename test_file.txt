@@ -1,0 +1,53 @@
+Microsoft Windows [Version 10.0.19044.1706]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sashank.v\Desktop\test git>git init
+Initialized empty Git repository in C:/Users/sashank.v/Desktop/test git/.git/
+
+C:\Users\sashank.v\Desktop\test git>git add .
+
+C:\Users\sashank.v\Desktop\test git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt
+
+
+C:\Users\sashank.v\Desktop\test git>git commit -m "first commit hi all"
+[master (root-commit) f34f2ee] first commit hi all
+ Committer: Vemuri Sashank <sashank.v@prodapt.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.txt
+
+C:\Users\sashank.v\Desktop\test git>git branch -M sashank
+
+C:\Users\sashank.v\Desktop\test git>git remote add origin https://github.com/sashank612/sashank_trail.git
+
+C:\Users\sashank.v\Desktop\test git>git push -u origin sashank
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 220 bytes | 220.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sashank612/sashank_trail.git
+ * [new branch]      sashank -> sashank
+branch 'sashank' set up to track 'origin/sashank'.
+
+C:\Users\sashank.v\Desktop\test git>
+C:\Users\sashank.v\Desktop\test git>git push -u origin sashank
+Everything up-to-date
+branch 'sashank' set up to track 'origin/sashank'.
